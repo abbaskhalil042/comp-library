@@ -4,7 +4,7 @@
 
 // Steps to Run on local system
 
-# Goto to " "
+# Goto to or copy this "https://github.com/abbaskhalil042/comp-library"
 
 # copy the Repo URL
 
