@@ -1,0 +1,127 @@
+
+.second-page-logo {
+width: 100px;
+}
+
+.second-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 24px;
+  padding: 20px;
+
+}
+
+.second-page-heading {
+  font-size: 36px;
+  max-width: 600px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.second-page-paragraph {
+  font-size: 16px;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.second-page-paragraph > span {
+  background: linear-gradient(90deg, #b86060, #f1b6b1, #e2d8e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.second-page-heading > span {
+  background: linear-gradient(90deg, #b86060, #f1b6b1, #e2d8e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+/* Card */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-left: 20px;
+}
+
+.top,
+.bottom {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.profile-img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.event-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.event-date {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.attendee-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.attendee-handle {
+  font-size: 10px;
+  color: #ccc;
+}
+
+/* Right divider section */
+.divider-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  height: 100px;
+  padding-right: 10px;
+}
+
+.dotted-line {
+  border-left: 3px dotted #aaa;
+  height: 100%;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 10px;
+  color: #ccc;
+  letter-spacing: 3px;
+  margin-right: 10px;
+}
+
+.event-details,
+.attendee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* gap: 8px; */
+}
